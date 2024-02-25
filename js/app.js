@@ -20,7 +20,7 @@
 //         document.getElementById("demo").innerHTML = "EXPIRED";
 //     }
 // })
-var countDownDate = new Date("February 28, 2024 01:00:00").getTime();
+var countDownDate = new Date("March 21, 2024 01:00:00").getTime();
 var countdownFunction = setInterval(function () {
     var now = new Date().getTime();
     var distance = countDownDate - now;
